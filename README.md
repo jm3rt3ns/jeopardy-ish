@@ -4,6 +4,7 @@ Demo at: [www.jeopardy-ish.com](https://www.jeopardy-ish.com/)
 
 Welcome to **Jeopardish**, a Jeopardy-like app where you can create you own categories, answers, and questions using the **simple format shown below**.
 
+<pre>
 # Famous Actors
 - This person can be found within 6 Degrees on IMDb.
 > Who is Kevin Bacon?
@@ -13,6 +14,7 @@ Welcome to **Jeopardish**, a Jeopardy-like app where you can create you own cate
 > What is a poached egg?
 - This potato-based Waffle House favorite can be smothered in onion or cheese.
 > What is a hashbrown?
+</pre>
 
 Use this app for **friendly competitions** between friends, classmates, or co-workers to see who knows the most!
 
