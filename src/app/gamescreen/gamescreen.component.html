@@ -1,0 +1,17 @@
+<!-- <p>
+  gamescreen works!
+</p> -->
+<div class="row">
+    <div class="col-md-12">
+        <h3 >Select a Category <a style="text-align: right" [routerLink]="['/']">(Restart)</a></h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4" *ngFor="let category of jeopardCategories; let i = index">
+        <div class="card blue-background"[routerLink]="['/category/' + category.name]">
+          <div class="card-body center">
+            <h2 style="color:white" class="card-title">{{category.name}}</h2>
+          </div>
+          </div>
+    </div>
+</div>

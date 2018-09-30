@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+/* @import "~font-awesome/css/font-awesome.css"; */
+.game-card {
+    color: white;
+    min-height:100vh;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 7em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.blue-background {
+    background: #1641b9;
+}

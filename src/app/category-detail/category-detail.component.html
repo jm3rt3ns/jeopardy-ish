@@ -1,0 +1,11 @@
+<div class="game-card blue-background" (click)="displayQuestion()">
+  <h1 class="center" *ngIf="state===0">
+      {{ category.name }}
+  </h1>
+  <h2 class="center" *ngIf="state===1">
+    {{ currentAnswer }}
+  </h2>
+  <h2 class="center" *ngIf="state===2">
+    {{ currentQuestion }}
+  </h2>
+</div>

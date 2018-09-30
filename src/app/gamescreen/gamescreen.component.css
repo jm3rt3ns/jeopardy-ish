@@ -1,0 +1,15 @@
+.col-md-4 {
+    margin: 0;
+    padding: 15px 15px 15px 15px;
+    height: 300px;
+}
+
+.card {
+    height: 100%;
+    border: 5px solid #1328a7;
+    border-radius: 15px;
+}
+
+.row {
+    margin: 15px 15px 15px 15px;
+}

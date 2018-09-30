@@ -1,0 +1,18 @@
+<div class="col-md-12">
+    <h2>
+      Jeopardish v1.0
+    </h2>
+    <p class="form-control-lg">
+      Welcome to <strong>Jeopardish</strong>, a Jeopardy-like app where you can create you own categories, answers, and questions using the <strong>simple format shown in the textbox below</strong>.
+    </p>
+    <p class="form-control-lg">
+      Use this app for <strong>friendly competitions</strong> between friends, classmates, or co-workers to see who knows the most!
+    </p>
+    <p class="form-control-lg">
+      When you are ready, click "Begin" to start playing the game.
+    </p>
+</div>
+<div class="form-group">
+  <textarea class="form-control form-control-lg" rows="15" [(ngModel)]="rawText" placeholder="Enter Jeopardy game content here" type="textbox"  required></textarea>
+  <button type="button" class="btn btn-primary form-control-lg blue-background" style="width: 100%" (click)="onSubmit()">Begin</button>
+</div>
