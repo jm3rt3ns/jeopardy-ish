@@ -1,5 +1,23 @@
 # Jeopardy
 
+Demo at: [www.jeopardy-ish.com](https://www.jeopardy-ish.com/)
+
+Welcome to **Jeopardish**, a Jeopardy-like app where you can create you own categories, answers, and questions using the **simple format shown below**.
+
+# Famous Actors
+- This person can be found within 6 Degrees on IMDb.
+> Who is Kevin Bacon?
+
+# Breakfast
+- This popular breakfast item sounds as if it was hunted illegally.
+> What is a poached egg?
+- This potato-based Waffle House favorite can be smothered in onion or cheese.
+> What is a hashbrown?
+
+Use this app for **friendly competitions** between friends, classmates, or co-workers to see who knows the most!
+
+# Development Notes
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
 ## Development server
